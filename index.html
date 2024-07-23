@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task 01 - DS</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
+  </head>
+  <body>
+    <main>
+      <h1 class="title">Cálculos</h1>
+      <section>
+        <h2>Soma</h2>
+        <!-- <label for="n1">Número 01:</label><br /> -->
+        <input type="number" id="n1" placeholder="Numero 01" /><br />
+        <!-- <label for="n2">Número 02:</label><br /> -->
+        <input type="number" id="n2" placeholder="Numero 02" /><br />
+        <button onclick="somar()">Calcular</button>
+        <p id="ResSoma"></p>
+      </section>
+      <section>
+        <h2>Subtração</h2>
+        <input type="number" id="sub1" placeholder="Numero 01" /><br />
+
+        <input type="number" id="sub2" placeholder="Numero 02" /><br />
+
+        <button onclick="subtrair()">Calcular</button>
+        <p id="ResSub"></p>
+      </section>
+      <section>
+        <h2>Divisão</h2>
+        <input type="number" id="div1" placeholder="Numero 01" /><br />
+
+        <input type="number" id="div2" placeholder="Numero 02" /><br />
+
+        <button onclick="dividir()">Calcular</button>
+        <p id="ResDiv"></p>
+      </section>
+      <section>
+        <h2>Multiplicação</h2>
+        <input type="number" id="mul1" placeholder="Numero 01" /><br />
+
+        <input type="number" id="mul2" placeholder="Numero 02" /><br />
+
+        <button onclick="multiplicar()">Calcular</button>
+        <p id="ResMul"></p>
+      </section>
+      <section>
+        <h2>Média</h2>
+        <input type="number" id ="med1" placeholder="Primeira nota">
+        <input type="number" id="med2" placeholder="Segunda nota">
+        <input type="number" id="med3" placeholder="Terceira nota">
+        <button onclick="media () ">Calcular</button>
+        <p>
+          Média:
+          <span id ="resMedia"></span>
+        </p>
+      </section>
+      <section>
+        <h2>Iteração (for)</h2>
+        <input type="number" id="numeroInput" placeholder="Digite um número">
+        <button onclick="contar()">CONTAR</button>
+        <p id="result"></p>
+      </section>
+    </main>
+  </body>
+</html>
